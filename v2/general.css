@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.move img {
+    height: 8em;
+}
+
+.move {
+    padding: 4em;
+    margin: 0 1em;
+    background-color: transparent;
+    border: 0.2em solid white;
+    border-radius: 12em;
+    cursor: pointer;
+
+}
+
+.option-button {
+    font-size: 0.75em;
+    font-weight: 500;
+    background-color: white;
+    border: transparent;
+    padding: 0.35em 0.65em;
+    margin: 0 1em;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.option-button:active {
+    background-color: #bbb;
+}
+
+.picked-moves,
+.picked-moves div {
+    font-size: 0.85em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-picked-move {
+    padding: 0 4em;
+}
+
+.computer-picked-move {
+    padding: 0 2em;
+}
+
+.picked-moves div img {
+    height: 4rem;
+}
+
+
+
